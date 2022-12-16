@@ -4,7 +4,8 @@
 
 This project was done while being a tranee in the KazAeroSpace company. The project aim was to build a triaxial camera stabilization system for a special airplane used to produce a 3D map of a city.
 
-The 3D printed stabilizer is movable in x,y,z axes. The stabilizer has spots for mounting servomotors to stabilize the cameras for all three angles (axes). 
+The 3D printed stabilizer is movable in x,y,z axes. The stabilizer has spots for mounting servomotors to stabilize the cameras for all three angles (axes). The assembly designed in SolidWorks looks like this:
+![Photo3](https://user-images.githubusercontent.com/111345810/208089196-17f8b644-e654-4a13-ac8b-b3d53769a847.jpeg)
 
 The MPU6050 module, which contains accelerometer and gyroscope sensors, is used to register calculate all the angles. Arduino processeses the input from MPU6050 and sends commands to servomotors. 
 
